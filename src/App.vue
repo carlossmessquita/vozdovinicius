@@ -35,8 +35,7 @@
         background-image: linear-gradient(to left top, #000000, #080808, #0e0e0e, #141414, #181818, #19191a, #1b1b1b, #1c1c1d, #1b1b1d, #191b1c, #171a1b, #161a1a);
         background-position: center;
         color: #00ff95;
-        min-width: 320px; 
-        max-width: 1450px; 
+
 
     }
 
@@ -52,10 +51,11 @@
 
     .container {
         display: flex;
+        flex-direction: row;
         align-items: center;
         margin: auto auto 6%;
         justify-content: space-around;
-        min-height: 100%;
+        
         
     }
 
